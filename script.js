@@ -31,7 +31,7 @@ document.querySelector(".check").addEventListener("click",function(){
           }
 
         displayMessage("🎉 Correct Number!");
-        audioFile("resources/correct.mp3");
+        audioFile("sounds/correct-sound.mp3");
         
     }
     else if(inputNumber!=guessNumber){
@@ -41,7 +41,7 @@ document.querySelector(".check").addEventListener("click",function(){
         document.querySelector(".score").textContent=score;
         }
         document.querySelector("body").style.backgroundColor="#FF0000";
-        audioFile("resources/wrong.mp3");
+        audioFile("sounds/wrong-sound.mp3");
         
         if(guessNumber>10){
             document.querySelector(".hint1").textContent="The number is >10";
