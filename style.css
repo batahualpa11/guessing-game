@@ -154,43 +154,42 @@ h1 {
 /* Additional Media Query for iPhone 13 */
 @media only screen and (max-width: 390px) {
   h1 {
-    font-size: 3rem; /* Adjust font size for smaller screens */
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
   }
 
   .number {
-    font-size: 4rem; /* Adjust font size for smaller screens */
-    max-width: 12rem; /* Adjust max-width for smaller screens */
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    max-width: 10rem; /* Adjust max-width for smaller screens */
   }
 
   .between {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
-    padding: 1.5rem 2rem; /* Adjust padding for smaller screens */
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    padding: 1rem 1.5rem; /* Adjust padding for smaller screens */
   }
 
   .guess {
-    font-size: 3rem; /* Adjust font size for smaller screens */
-    max-width: 20rem; /* Adjust max-width for smaller screens */
-    padding: 2rem; /* Adjust padding for smaller screens */
-    margin-bottom: 2rem; /* Adjust margin for smaller screens */
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    max-width: 15rem; /* Adjust max-width for smaller screens */
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+    margin-bottom: 1.5rem; /* Adjust margin for smaller screens */
   }
 
   .btn {
-    font-size: 1.8rem; /* Adjust font size for smaller screens */
-    padding: 1.5rem 2rem; /* Adjust padding for smaller screens */
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    padding: 1rem 1.5rem; /* Adjust padding for smaller screens */
   }
 
   .message {
-    margin-bottom: 5rem; /* Adjust margin for smaller screens */
+    margin-bottom: 3rem; /* Adjust margin for smaller screens */
   }
 
   .label-score {
-    margin-bottom: 1rem; /* Adjust margin for smaller screens */
+    margin-bottom: 0.5rem; /* Adjust margin for smaller screens */
   }
 
   .hint,
   .hint1 {
     margin-top: 1rem; /* Adjust margin for smaller screens */
-    font-size: 1.4rem; /* Adjust font size for smaller screens */
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
   }
 }
-
