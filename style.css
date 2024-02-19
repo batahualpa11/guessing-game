@@ -180,7 +180,7 @@ h1 {
   }
 
   .message {
-    margin-bottom: 1rem; /* Adjust margin for smaller screens */
+    margin-bottom: 0.5rem; /* Adjust margin for smaller screens */
   }
 
   .label-score {
