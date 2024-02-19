@@ -105,8 +105,8 @@ h1 {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
-  top:43rem;
-  left:3rem;
+  top: 65px;
+  left: 3px;
 }
 
 .btn {
@@ -146,8 +146,7 @@ h1 {
 
   .left,
   .right,
-  .number,
-  .guess {
+  .number {
     width: 100%; /* Adjusted width to 100% for smaller screens */
     max-width: none; /* Removed max-width for smaller screens */
   }
@@ -173,7 +172,8 @@ h1 {
     font-size: 2.5rem; /* Adjust font size for smaller screens */
     max-width: 15rem; /* Adjust max-width for smaller screens */
     padding: 1.5rem; /* Adjust padding for smaller screens */
-    margin-bottom: 1.5rem; /* Adjust margin for smaller screens */
+    margin-bottom: 6.5rem; /* Adjust margin for smaller screens */
+    left: 40px;
   }
 
   .btn {
